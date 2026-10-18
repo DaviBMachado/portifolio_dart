@@ -1,5 +1,28 @@
-{
-  "titulo": "Desenvolvimento de um Dashboard E-commerce em Tempo Real",
-  "resumo": "Uma aplicação web escalável com atualizações ao vivo, gráficos interativos e foco total na experiência do usuário (UX).",
-  "tags": ["Front-end", "React", "Out 2026"]
-}
+[
+  {
+    "id": "dashboard-ecommerce",
+    "title": "Desenvolvimento de um Dashboard E-commerce em Tempo Real",
+    "subtitle": "Uma aplicação web escalável com atualizações ao vivo, gráficos interativos e foco total na experiência do usuário (UX).",
+    "tags": ["Front-end", "React", "FastAPI"],
+    "date": "Out 2026",
+    "githubUrl": "https://github.com/seu-usuario/dashboard-ecommerce",
+    "deployUrl": "https://seu-deploy.com",
+    "mockupUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    "challenge": "Lojistas precisavam monitorar vendas e métricas críticas sem atualizar a página manualmente a cada minuto.",
+    "solution": "Criação de um pipeline de dados reativo com WebSockets e renderização otimizada para alto volume de eventos.",
+    "technologies": [
+      {"name": "React / Flutter Web", "reason": "Componentização modular e alta performance de renderização."},
+      {"name": "Python (FastAPI)", "reason": "Processamento assíncrono de baixa latência e suporte nativo a WebSockets."},
+      {"name": "Docker & Cloud", "reason": "Deploy reprodutível com escalabilidade horizontal automática."}
+    ],
+    "features": [
+      {"icon": "palette", "title": "UI/UX Responsivo", "description": "Se adapta perfeitamente do mobile ao ultrawide."},
+      {"icon": "bar_chart", "title": "Gráficos Dinâmicos", "description": "Atualização em tempo real a cada 500ms."},
+      {"icon": "lock", "title": "Autenticação Segura", "description": "Proteção de rotas e controle de sessão com JWT."}
+    ],
+    "results": [
+      "Desempenho: Redução de 40% no tempo de carregamento inicial (LCP).",
+      "Aprendizado: Implementação profunda de gerenciamento de estado global e streams."
+    ]
+  }
+]
